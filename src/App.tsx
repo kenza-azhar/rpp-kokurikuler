@@ -85,11 +85,11 @@ export default function App() {
         <div className="bg-white rounded-2xl shadow-2xl max-w-2xl w-full overflow-hidden">
           {/* Header */}
           <div className="bg-gradient-to-r from-emerald-600 to-teal-600 p-8 text-white text-center">
-            <div className="inline-flex items-center justify-center w-20 h-20 bg-white/20 rounded-2xl mb-4">
-              <svg className="w-12 h-12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
-              </svg>
-            </div>
+            <img
+              src="https://freeimghost.com/images/2026/05/08/logo-kemenag60fceb73d13a9d39.png"
+              alt="Logo Kemenag"
+              className="w-20 h-20 mx-auto mb-4 object-contain"
+            />
             <h1 className="text-3xl font-bold mb-2">Perencanaan Kokurikuler</h1>
             <p className="text-emerald-100">Kurikulum Berbasis Cinta (KBC) - Madrasah</p>
           </div>
