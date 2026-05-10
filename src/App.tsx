@@ -162,6 +162,9 @@ export default function App() {
             <p className="text-xs text-gray-400 text-center mt-6">
               Data tersimpan otomatis di browser Anda
             </p>
+            <p className="text-xs text-gray-400 text-center mt-2">
+              © Copyright: Agus Arifien @min1cms
+            </p>
           </div>
         </div>
       </div>
