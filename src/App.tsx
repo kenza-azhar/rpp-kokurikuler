@@ -122,15 +122,6 @@ export default function App() {
               <button
                 onClick={() => {
                   setShowWelcome(false);
-                  setShowAIGenerator(true);
-                }}
-                className="w-full py-4 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-xl hover:from-purple-700 hover:to-indigo-700 transition-all font-semibold flex items-center justify-center gap-2 shadow-lg"
-              >
-                🤖 Generate Otomatis dengan AI
-              </button>
-              <button
-                onClick={() => {
-                  setShowWelcome(false);
                   setActiveTab('form');
                 }}
                 className="w-full py-4 bg-emerald-600 text-white rounded-xl hover:bg-emerald-700 transition-colors font-semibold flex items-center justify-center gap-2"
@@ -146,6 +137,15 @@ export default function App() {
                 className="w-full py-4 bg-amber-500 text-white rounded-xl hover:bg-amber-600 transition-colors font-semibold flex items-center justify-center gap-2"
               >
                 📋 Mulai dengan Contoh Terisi
+              </button>
+              <button
+                onClick={() => {
+                  setShowWelcome(false);
+                  setShowAIGenerator(true);
+                }}
+                className="w-full py-4 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-xl hover:from-purple-700 hover:to-indigo-700 transition-all font-semibold flex items-center justify-center gap-2 shadow-lg"
+              >
+                🤖 Generate Otomatis dengan AI
               </button>
               <button
                 onClick={() => {
